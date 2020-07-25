@@ -8,12 +8,17 @@ import {
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
 } from '@nebular/auth';
+import { ManageParishDataSystemComponent } from './pages/parish-datasystem/manage-parish-datasystem.component';
 
 export const routes: Routes = [
   {
     path: 'pages',
     loadChildren: () => import('./pages/pages.module')
       .then(m => m.PagesModule),
+  },
+  {
+    path: 'data-system',
+    component: NbRegisterComponent,
   },
   {
     path: 'auth',
