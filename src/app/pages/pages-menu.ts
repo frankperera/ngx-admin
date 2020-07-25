@@ -33,4 +33,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  {
+    title: 'Manage Parish Data System',
+    icon: 'lock-outline',
+    children: [
+      {
+        title: 'Manage Parish Data',
+        link: 'data-system',
+      },
+      {
+        title: 'Create New Parish Data',
+        link: 'data-system',
+      },
+    ],
+  },
 ];
